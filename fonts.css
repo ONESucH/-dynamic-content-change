@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Roboto Condensed', sans-serif;
+    src: url('fonts/RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    src: url('fonts/NotoSans-Regular.ttf');
+}

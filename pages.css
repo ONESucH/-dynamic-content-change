@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.active-url {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background: #f5f8fb;
+    height: 100vh;
+    min-width: 1000px;
+}
+
+.information-page {
+    padding: 15px;
+}
+
+.is-not-rotate-block {
+    padding-top: 15px;
+    width: 100%;
+}
+
+.is-not-rotate-block:hover .decoration {
+    box-shadow: 0 0 17px 6px rgba(115, 115, 115, 0.78);
+}
+
+.is-not-rotate-block:hover .face-reverse {
+    display: block;
+    text-align: left;
+}
+
+.active {
+    color: #2693ff!important;
+}
+
+.face {
+    position: relative;
+}
+
+.count_1 {
+    background: url("img/1.png") no-repeat center;
+    background-size: cover;
+}
+.count_2 {
+    background: url("img/2.png") no-repeat center;
+    background-size: cover;
+}
+.count_3 {
+    background: url("img/3.png") no-repeat center;
+    background-size: cover;
+}
+.count_4 {
+    background: url("img/4.png") no-repeat center;
+    background-size: cover;
+}
+.count_5 {
+    background: url("img/5.png") no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    font-size: 17px;
+    padding: 15px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    background: #0059b1;
+    z-index: 2;
+}
+
+.title:hover .face-reverse {
+    display: block;
+}
+
+.decoration {
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 6px auto 0;
+    border-radius: 100%;
+    box-shadow: 0 0 17px 6px rgba(195, 197, 201, 0.78);
+    height: 0;
+    z-index: 1;
+}
